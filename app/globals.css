@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 101, 101, 101;
+  --background-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+}
+
+@layer components {
+  .header-alt {
+    @apply bg-gray-100 py-8;
+  }
+  
+  .package-card {
+    @apply bg-gray-100 p-6 rounded-lg mb-4;
+  }
+  
+  .gallery-container {
+    @apply w-full h-[600px] border-0;
+  }
+} 

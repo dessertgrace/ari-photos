@@ -70,7 +70,7 @@ export default function Home() {
       >
         <div className="absolute inset-0 z-0">
           <Image
-            src="/forest.jpg"
+            src="/ari-photos/forest.jpg"
             alt="Forest Background"
             fill
             className="object-cover"
